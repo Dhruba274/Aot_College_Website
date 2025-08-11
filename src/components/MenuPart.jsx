@@ -16,7 +16,7 @@ function MenuPart() {
             <NavLink to={"https://aot.edu.in/industry-4-0-2/"}><td className='py-1 px-4'>Industry 4.0 Center@AOT</td></NavLink>
             </tr>
             <tr className='border-b border-black' >
-            <NavLink to={"/Signup"} target='_blank'><td className='py-1 px-4'>AOT Student Portal</td></NavLink>
+            <NavLink to={"/Signup"} ><td className='py-1 px-4'>AOT Student Portal</td></NavLink>
             </tr>
             <tr className='border-b border-black' >
             <NavLink to={"https://www.aotingenium.com/"} target='_blank'><td className='py-1 px-4'>AOT Web Magazine</td></NavLink>

@@ -10,9 +10,9 @@ function Signup() {
     password: "",
   });
 
-  const handleInput = (event) => {
-    setVal((prev) => ({ ...prev, [event.target.name]: [event.target.value] }));
-  };
+  // const handleInput = (event) => {
+  //   setVal((prev) => ({ ...prev, [event.target.name]: [event.target.value] }));
+  // };
   const navigate = useNavigate();
   // const handleSubmit = (event) => {
   //   event.preventDefault();
@@ -37,18 +37,17 @@ function Signup() {
             sign In
           </div>
           <form
-            onSubmit={handleSubmit}
             className=" flex flex-col justify-between items-center"
           >
             <div class="input-container">
-              <input placeholder="Enter your email" className="input-field form-control font-[para]" type="email" onChange={handleInput} required/>
+              <input placeholder="Enter your email" className="input-field form-control font-[para]" type="email"  required/>
               <label htmlFor="email" for="input-field" class="input-label">
                 Email
               </label>
               <span class="input-highlight"></span>
             </div>
             <div class="input-container">
-              <input placeholder="Enter your password" className="input-field form-control font-[para]" type="password" onChange={handleInput} required/>
+              <input placeholder="Enter your password" className="input-field form-control font-[para]" type="password"  required/>
               <label htmlFor="password" for="input-field" class="input-label">
                 Password
               </label>
