@@ -271,10 +271,10 @@ function Head() {
             alt="aotbg"
             className="h-[92%] w-full filter brightness-100"
           />
-          <h1 className="text-3xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl w-full aotmain font-bold text-center top-[50%] right-[-50%] sm:top-[50%] sm:left-[50%] translate-x-[-50%] translate-y-[-50%] absolute text-white font-[headline]">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl w-full aotmain font-bold text-center top-[50%] right-[-50%] sm:top-[50%] sm:left-[50%] translate-x-[-50%] translate-y-[-50%] absolute text-white font-[headline]">
             Academy of Technology
           </h1>
-          <h2 className="italic text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl aotmain text-center top-[56%] right-[-25%] sm:top-[54%] sm:left-[60%] md:top-[56%] md:left-[61%] lg:top-[58%] lg:left-[62%] xl:top-[58%] xl:left-[60%] 2xl:top-[60%] 2xl:left-[64%] translate-x-[-50%] translate-y-[-50%] absolute text-white font-[headline]">
+          <h2 className="italic text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl aotmain text-center top-[55%] right-[-25%] sm:top-[54%] sm:left-[60%] md:top-[56%] md:left-[61%] lg:top-[58%] lg:left-[62%] xl:top-[58%] xl:left-[60%] 2xl:top-[60%] 2xl:left-[64%] translate-x-[-50%] translate-y-[-50%] absolute text-white font-[headline]">
             ... translate your vision into reality
           </h2>
           <div className=" gradcol w-full h-40"></div>

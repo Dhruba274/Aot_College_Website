@@ -37,25 +37,25 @@ const items = [
   {
     title: "Students Chapter ECE",
     description: "From Vision to Victory: Navigating the Highlights",
-    header: <img src={deptnews1} classname=" h-full bg-cover bg-center object-cover overflow-hidden"/>,
+    header: <div className="bg-[url('./src/assets/deptNews1.png')] h-full bg-cover bg-center object-cover overflow-hidden"></div>,
     
   },
   {
     title: "Students Chapter CSE",
     description: "Legacy Unleashed: A Pinnacle of Excellence.",
-    header: <img src={deptnews2} className=" h-full bg-cover bg-center object-cover overflow-hidden"/>,
+    header: <div className="bg-[url('./src/assets/deptNews2.jpeg')] h-full bg-cover bg-center object-cover overflow-hidden"></div>,
     
   },
   {
     title: "IEI Students Chapter ME",
     description: "Seminar on 3D printing and prosthetics",
-    header: <img src={deptnews3} className=" h-full bg-cover bg-center object-cover overflow-hidden"/>,
+    header: <div className="bg-[url('./src/assets/deptNews3.jpeg')] h-full bg-cover bg-center object-cover overflow-hidden"></div>,
     
   },
   {
     title: "IEEE",
     description: "Inauguration of IEEE Student Branch at AOT",
-    header: <img src={deptnews4} className=" h-full bg-cover bg-center object-cover overflow-hidden"/>,
+    header: <div className="bg-[url('./src/assets/deptNews4.jpg')] h-full bg-cover bg-center object-cover overflow-hidden"></div>,
     
   },
 

@@ -11,7 +11,7 @@ function Loader() {
             setHome(
                 <Home/>
             )
-        },1000)
+        },2000)
     },[])
     return (
         <>
@@ -33,4 +33,3 @@ function Loader() {
 }
 
 export default Loader
-
